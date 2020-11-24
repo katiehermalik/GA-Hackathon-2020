@@ -12,25 +12,13 @@ function Navbar(props) {
 
     return (
         <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Navbar</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-            <li className="nav-item active">
-                <a className= {`nav-link btn btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal">Login<span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item active signup">
-                <a className= {`nav-link btn btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal-signup">Sign Up<span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item active">
-                <a onClick={ login } className= {`nav-link btn btn-primary ${props.signedIn ? 'signedOut': 'signedIn' }`} href="/" >Log Out<span className="sr-only">(current)</span></a>
-            </li>
-            </ul>
-        </div>
-    </nav>
+
+            <button className= {`login ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal">Login<span className="sr-only">(current)</span></button>
+
+            <button className= {`signup btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal-signup">Sign Up<span className="sr-only">(current)</span></button>
+
+            <button onClick={ login } className= {`nav-link btn btn-warning ${props.signedIn ? 'signedOut': 'signedIn' }`} href="/" >Log Out<span className="sr-only">(current)</span></button>
+ 
         {/* MODAL LOGIN */}
         <div id="modal" className="modal" tabindex="-1" role="dialog">
         <div className="modal-dialog" role="document">
@@ -56,7 +44,7 @@ function Navbar(props) {
                 </form>
             </div>
             <div className="modal-footer">
-                <button onClick={ login } type="button" className="btn btn-primary" data-dismiss="modal">Login</button>
+                <button onClick={ login } type="button" className="btn btn-warning" data-dismiss="modal">Login</button>
                 <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
             </div>
@@ -92,12 +80,42 @@ function Navbar(props) {
                 </form>
             </div>
             <div className="modal-footer">
-                <button type="button" className="btn btn-primary" data-dismiss="modal">Sign Up</button>
+                <button type="button" className="btn btn-warning" data-dismiss="modal">Sign Up</button>
                 <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
             </div>
         </div>
         </div>
+       
+        {/* Laugh Button */}
+  
+        <input
+        className="feel GO"
+        type="button" />
+  
+        <input
+        className="feel hover_1"
+        type="button" />
+
+        <input
+        className="feel hover_2"
+        type="button" />
+
+        <input
+        className="feel hover_3"
+        type="button" />
+
+        <input
+        className="feel hover_4"
+        type="button" />
+
+        <input
+        className="feel hover_5"
+        type="button" />
+
+        <input
+        className="feel hover_6"
+        type="button" />
 
         </>
 
