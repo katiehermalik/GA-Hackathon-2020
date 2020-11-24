@@ -2,6 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
+<<<<<<< HEAD
 
     <div className="v36_360">
       <div className="v36_361">What</div>
@@ -66,6 +67,11 @@ const Home = () => {
       <div className="v36_421"></div>
       <div className="name"></div>
       <div className="v36_428">Go</div>
+=======
+    <div>
+      <div className="killMee"></div>
+      <div className="laugh" ></div>
+>>>>>>> a92ed0d84e36e36de332e1de3048a81a32880182
     </div>
 
   );
