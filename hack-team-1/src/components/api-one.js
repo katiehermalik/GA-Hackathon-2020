@@ -1,23 +1,38 @@
 import React from 'react';
 import axios from 'axios';
-import { act } from 'react-dom/test-utils';
 
 class Api extends React.Component {
     state = {
         activity: []
     } 
     
-    componentDidMount() {
+    renderActivity = () => {
+        // BORED IDEAS
         axios.get('https://www.boredapi.com/api/activity?participants=1')
         .then((response) => {
-            console.log( response.data.activity );
+            console.log( response.data );
 
-            this.setState({ activity: response.data.activity });
-        });
+            const prevState = this.state.activity.slice()
+            prevState.push(response.data)
+            this.setState({ activity: prevState })
+        })
         
-       
+    }
+    componentDidMount() {
+        this.renderActivity()
+        this.renderActivity()
+        this.renderActivity()
     }
    
+    printActivity() {
+        return this.state.activity.map(( activity ) => {
+            return (
+                <li key = { activity.key }> { activity.activity } </li>
+
+            )
+        })
+
+    }
 
 
 
@@ -25,8 +40,10 @@ class Api extends React.Component {
 render () {
     return (
         <div>
-        { this.state.activity }
-        
+            <ul> 
+            { this.printActivity() }
+            </ul>
+
         </div>
     )
 }
