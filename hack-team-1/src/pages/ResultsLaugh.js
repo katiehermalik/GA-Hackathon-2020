@@ -7,7 +7,7 @@ function ResultsLaugh(props) {
             <Link className='laugh-link-jokes' to='#'></Link>
             <Link className='laugh-link-cat' to='/laughs/cat'></Link>
             <Link className='laugh-link-tiktok' to='#'></Link>
-            <Link className='results-go-again' to='/'>Link</Link>
+            <Link to='/' className='results-go-again'></Link>
 
         </div>
         

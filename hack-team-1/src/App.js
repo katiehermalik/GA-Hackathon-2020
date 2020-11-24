@@ -1,9 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
 import routes from './config/routes';
 import './App.css';
-import routes from './config/routes';
 
 class App extends React.Component {
   state = {
