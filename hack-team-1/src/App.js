@@ -1,6 +1,6 @@
 import React from 'react';
 import Api from './components/api-one';
-import Jokes from './components/AwfulJokes';
+// import Jokes from './components/AwfulJokes';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import './App.css';
@@ -17,9 +17,9 @@ class App extends React.Component {
   return (
     <div className="App">
       <Navbar loggedIn={ this.loggedIn } signedIn={ this.state.loggedIn }/>
-      <h1>HELLO WORLD</h1>
+      <Home />
       {/* <Api /> */}
-      <Jokes />
+      {/* <Jokes /> */}
     </div>
   );
   }
