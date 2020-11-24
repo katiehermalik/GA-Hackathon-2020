@@ -20,10 +20,10 @@ function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
             <li className="nav-item active">
-                <a className= {`nav-link btn btn-primary ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal">Login<span className="sr-only">(current)</span></a>
+                <a className= {`nav-link btn btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal">Login<span className="sr-only">(current)</span></a>
             </li>
-            <li className="nav-item active">
-                <a className= {`nav-link btn btn-primary ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal-signup">Sign Up<span className="sr-only">(current)</span></a>
+            <li className="nav-item active signup">
+                <a className= {`nav-link btn btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal-signup">Sign Up<span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
                 <a onClick={ login } className= {`nav-link btn btn-primary ${props.signedIn ? 'signedOut': 'signedIn' }`} href="/" >Log Out<span className="sr-only">(current)</span></a>
