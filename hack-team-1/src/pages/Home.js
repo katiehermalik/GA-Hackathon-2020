@@ -1,17 +1,18 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   return (
     <div className="home">
       <div className="home"></div>
       <div className="laugh" ></div>
-      <input
+      <Link to='/random'><input
         className="feel GO"
-        type="button" />
+        type="button" /></Link>
   
-        <input
+        <Link to='/laughs'><input
         className="feel hover_1"
-        type="button" />
+        type="button" /></Link>
 
         <input
         className="feel hover_2"
@@ -25,9 +26,9 @@ const Home = () => {
         className="feel hover_4"
         type="button" />
 
-        <input
+        <Link to='/engageretro'><input
         className="feel hover_5"
-        type="button" />
+        type="button" /></Link>
 
         <input
         className="feel hover_6"

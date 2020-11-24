@@ -250,3 +250,16 @@
   top: 777px;
 }
 
+.whiteBox {
+  background-color: white;
+  position: absolute;
+  width: 200px;
+  height: 100px; 
+  left: 1200px;
+}
+
+.loggout {
+  position: absolute;
+  left: 1213px;
+  top: 16px;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const ShowRandom = () => {
   return (
     <div>
       <div className="showrandom"></div>
-      {/* <div className="laugh" ></div> */}
+      <Link to='/' className='results-go-again'></Link>
     </div>
   );
 }
