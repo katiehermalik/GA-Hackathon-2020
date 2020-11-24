@@ -8,18 +8,30 @@
 }
 
 .killMee {
+  /* position: fixed; */
   width: 100vw;
   height: 100vh;
-  background: url('images/group_27.png');
-  background-size: cover;
+  background: url('images/group_27.png') no-repeat;
 }
 
 .laugh {
-  position: absolute;
+  position: static;
   top: 10vh;
   left: 60vw;
   width: 19vh;
   height: 19vh;
   background: url('images/group_29.png');
   background-size: cover;
+}
+
+.signup {
+  position: absolute;
+  padding: 3px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.login {
+  position: absolute;
+  left: 1200px;
 }
