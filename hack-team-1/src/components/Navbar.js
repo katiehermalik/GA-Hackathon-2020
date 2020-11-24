@@ -86,36 +86,7 @@ function Navbar(props) {
             </div>
         </div>
         </div>
-       
-        {/* Laugh Button */}
-  
-        <input
-        className="feel GO"
-        type="button" />
-  
-        <input
-        className="feel hover_1"
-        type="button" />
-
-        <input
-        className="feel hover_2"
-        type="button" />
-
-        <input
-        className="feel hover_3"
-        type="button" />
-
-        <input
-        className="feel hover_4"
-        type="button" />
-
-        <input
-        className="feel hover_5"
-        type="button" />
-
-        <input
-        className="feel hover_6"
-        type="button" />
+    
 
         </>
 
