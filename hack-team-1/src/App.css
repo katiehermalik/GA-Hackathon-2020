@@ -8,14 +8,14 @@
 }
 
 .killMee {
+  /* position: fixed; */
   width: 100vw;
   height: 100vh;
-  background: url('images/group_27.png');
-  background-size: cover;
+  background: url('images/group_27.png') no-repeat;
 }
 
 .laugh {
-  position: absolute;
+  position: static;
   top: 10vh;
   left: 60vw;
   width: 19vh;
@@ -23,3 +23,76 @@
   background: url('images/group_29.png');
   background-size: cover;
 }
+
+.signup {
+  position: absolute;
+  padding: 3px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.login {
+  position: absolute;
+  left: 1200px;
+}
+
+.random2 {
+  width: 100vw;
+  height: 100vh;
+  background: url('images/Random_Page_2.png') no-repeat;
+}
+
+.showrandom {
+  width: 100vw;
+  height: 100vh;
+  background: url('images/ShowPie.png') no-repeat;
+}
+
+.invisiblePie{
+  position: absolute;
+  top: 143px;
+  left: 75px;
+  width: 416px;
+  height: 423px;
+  background-color: black;
+  background-size: cover;
+  opacity: 0;
+}
+
+.invisiblePie:hover{
+  background-color: black;
+  opacity: 50%;
+}
+
+.invisibleShelf{
+  position: absolute;
+  top: 143px;
+  left: 512px;
+  width: 416px;
+  height: 423px;
+  background-color: black;
+  background-size: cover;
+  opacity: 0;
+}
+
+.invisibleShelf:hover{
+  background-color: black;
+  opacity: 50%;
+}
+
+.invisibleMusic{
+  position: absolute;
+  top: 143px;
+  left: 950px;
+  width: 416px;
+  height: 423px;
+  background-color: black;
+  background-size: cover;
+  opacity: 0;
+}
+
+.invisibleMusic:hover{
+  background-color: black;
+  opacity: 50%;
+}
+
