@@ -12,25 +12,13 @@ function Navbar(props) {
 
     return (
         <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Navbar</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-            <li className="nav-item active">
-                <a className= {`nav-link btn btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal">Login<span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item active signup">
-                <a className= {`nav-link btn btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal-signup">Sign Up<span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item active">
-                <a onClick={ login } className= {`nav-link btn btn-primary ${props.signedIn ? 'signedOut': 'signedIn' }`} href="/" >Log Out<span className="sr-only">(current)</span></a>
-            </li>
-            </ul>
-        </div>
-    </nav>
+
+            <a className= {`login ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal">Login<span className="sr-only">(current)</span></a>
+
+            <button className= {`signup btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal-signup">Sign Up<span className="sr-only">(current)</span></button>
+
+            <button onClick={ login } className= {`nav-link btn btn-warning ${props.signedIn ? 'signedOut': 'signedIn' }`} href="/" >Log Out<span className="sr-only">(current)</span></button>
+ 
         {/* MODAL LOGIN */}
         <div id="modal" className="modal" tabindex="-1" role="dialog">
         <div className="modal-dialog" role="document">
