@@ -17,9 +17,9 @@ class App extends React.Component {
   return (
     <div className="App">
       <Navbar loggedIn={ this.loggedIn } signedIn={ this.state.loggedIn }/>
-      <h1>HELLO WORLD</h1>
+      <Home />
       {/* <Api /> */}
-      <Jokes />
+      {/* <Jokes /> */}
     </div>
   );
   }
