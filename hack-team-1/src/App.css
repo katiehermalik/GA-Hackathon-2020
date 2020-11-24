@@ -35,3 +35,27 @@
   position: absolute;
   left: 1200px;
 }
+
+/* RESULTS BRAIN */
+.results_brain_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Results_Crossword.png') no-repeat;
+  
+}
+
+.results_container {
+  position: relative;
+  height: 423px;
+  width: 416px;
+  left: 510px;
+  top: 145px;
+}
+
+/* SHOW BRAIN */
+.show_brain_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Show_Crossword.png') no-repeat;
+}
+

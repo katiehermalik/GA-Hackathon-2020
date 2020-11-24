@@ -1,8 +1,8 @@
 import React from 'react';
+import routes from './config/routes';
 import Api from './components/api-one';
 // import Jokes from './components/AwfulJokes';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
 import './App.css';
 
 class App extends React.Component {
@@ -17,9 +17,8 @@ class App extends React.Component {
   return (
     <div className="App">
       <Navbar loggedIn={ this.loggedIn } signedIn={ this.state.loggedIn }/>
-      <Home />
-      {/* <Api /> */}
-      {/* <Jokes /> */}
+      { routes }
+      
     </div>
   );
   }
