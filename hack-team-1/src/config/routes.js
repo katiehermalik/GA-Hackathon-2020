@@ -20,4 +20,4 @@ export default (
     <Route path='/laughs/cat' component={ ShowLaugh }/>
     <Route path='/engageretro/crossword' component={ ShowBrainDate }/>
   </Switch>
-)
+);

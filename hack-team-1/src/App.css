@@ -142,6 +142,59 @@
   background: url('hoverImages/hover_3.png')no-repeat;
 }
 
+/* RESULTS BRAIN */
+.results_brain_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Results_Crossword.png') no-repeat;
+  
+}
+
+
+
+.results_link_crossword {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  height: 423px;
+  width: 416px;
+  left: 510px;
+  top: 145px;
+}
+
+.brain-link-left {
+  
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    height: 423px;
+    width: 416px;
+    left: 75px;
+    top: 145px;
+  
+}
+
+.brain-link-right {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  height: 423px;
+  width: 420px;
+  left: 950px;
+  top: 145px;
+}
+
+.results_link_crossword:hover, .brain-link-left:hover, .brain-link-right:hover {
+  opacity: 50%;
+}
+
+/* SHOW BRAIN */
+.show_brain_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Show_Crossword.png') no-repeat;
+}
+
 .results-laugh {
   width:100vw;
   height:100vh;
@@ -246,7 +299,24 @@
   position: absolute;
   left: 1000px;
   height: 100px;
-  width: 200px;
-  top: 780px;
+
+  width: 350px;
+  top: 740px;
 }
 
+/* SHOW CAT */
+
+.cat_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Laugh_show.png') no-repeat;
+  
+}
+
+.cat_vid {
+  
+  position: absolute;
+  left: 320px;
+  top: 145px;
+
+}
