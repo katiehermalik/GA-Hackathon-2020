@@ -1,9 +1,8 @@
 import React from 'react';
 import routes from './config/routes';
-import Api from './components/api-one';
-// import Jokes from './components/AwfulJokes';
 import Navbar from './components/Navbar';
 import './App.css';
+
 
 class App extends React.Component {
   state = {
@@ -18,7 +17,7 @@ class App extends React.Component {
     <div className="App">
       <Navbar loggedIn={ this.loggedIn } signedIn={ this.state.loggedIn }/>
       { routes }
-      
+
     </div>
   );
   }
