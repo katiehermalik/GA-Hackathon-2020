@@ -141,3 +141,55 @@
   left: 1186px;
   background: url('hoverImages/hover_3.png')no-repeat;
 }
+
+.results-laugh {
+  width:100vw;
+  height:100vh;
+  background: url('images/Rendom_Page_3.png') no-repeat;
+}
+
+.laugh-link-cat {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  left: 512px;
+  width: 416px;
+  height: 423px;
+  top: 143px;
+}
+
+.laugh-link-jokes {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  left: 75px;
+  width: 416px;
+  height: 423px;
+  top: 143px;
+}
+
+.laugh-link-tiktok {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  left: 950px;
+  width: 416px;
+  height: 423px;
+  top: 143px;
+}
+
+.laugh-link-cat:hover, .laugh-link-jokes:hover, .laugh-link-tiktok:hover {
+  background-color: none;
+  opacity: 50%;
+  /* border: 3px solid #F55FAA;
+  border-radius: 5px; */
+}
+
+.results-go-again {
+  position: absolute;
+  left: 1000px;
+  height: 100px;
+  width: 200px;
+  top: 780px;
+}
+
