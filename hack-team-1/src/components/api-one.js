@@ -1,6 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 
+
+
+// BASE TEMPLATE for reference
 class Api extends React.Component {
     state = {
         activity: []

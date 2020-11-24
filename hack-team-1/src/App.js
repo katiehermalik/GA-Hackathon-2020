@@ -1,13 +1,13 @@
 import './App.css';
 import Api from './components/api-one';
-import Crossword from './components/crossword';
+import Jokes from './components/AwfulJokes';
 
 function App() {
   return (
     <div className="App">
       <h1>HELLO WORLD</h1>
       <Api />
-      <Crossword />
+      <Jokes />
     </div>
   );
 }
