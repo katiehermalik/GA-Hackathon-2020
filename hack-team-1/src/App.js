@@ -16,6 +16,7 @@ class App extends React.Component {
     <div className="App">
       <Navbar loggedIn={ this.loggedIn } signedIn={ this.state.loggedIn }/>
       { routes }
+
     </div>
   );
   }

@@ -18,7 +18,7 @@ function Navbar(props) {
 
             <button className= {`signup btn-warning ${props.signedIn ? 'signedIn': 'signedOut' }`} data-toggle="modal" data-target="#modal-signup">Sign Up<span className="sr-only">(current)</span></button>
 
-            <button onClick={ login } className= {`nav-link btn btn-warning loggout ${props.signedIn ? 'signedOut': 'signedIn' }`} href="/" >Log Out<span className="sr-only">(current)</span></button>
+            <Link to="/"><button onClick={ login } className= {` btn-warning loggout ${props.signedIn ? 'signedOut': 'signedIn' }`} href="/" >Log Out<span className="sr-only">(current)</span></button></Link>
  
         {/* MODAL LOGIN */}
         <div id="modal" className="modal" tabindex="-1" role="dialog">

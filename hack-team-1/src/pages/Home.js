@@ -34,7 +34,9 @@ const Home = () => {
         className="feel hover_6"
         type="button" />
     </div>
+
   );
 }
 
 export default Home;
+

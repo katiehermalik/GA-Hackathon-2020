@@ -36,6 +36,7 @@
   border-radius: 20px;
   left: 1213px;
   top: 16px;
+  z-index: 10;
 }
 
 .login {
@@ -142,6 +143,59 @@
   background: url('hoverImages/hover_3.png')no-repeat;
 }
 
+/* RESULTS BRAIN */
+.results_brain_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Results_Crossword.png') no-repeat;
+  
+}
+
+
+
+.results_link_crossword {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  height: 423px;
+  width: 416px;
+  left: 510px;
+  top: 145px;
+}
+
+.brain-link-left {
+  
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    height: 423px;
+    width: 416px;
+    left: 75px;
+    top: 145px;
+  
+}
+
+.brain-link-right {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  height: 423px;
+  width: 420px;
+  left: 950px;
+  top: 145px;
+}
+
+.results_link_crossword:hover, .brain-link-left:hover, .brain-link-right:hover {
+  opacity: 50%;
+}
+
+/* SHOW BRAIN */
+.show_brain_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Show_Crossword.png') no-repeat;
+}
+
 .results-laugh {
   width:100vw;
   height:100vh;
@@ -215,6 +269,16 @@
   opacity: 50%;
 }
 
+.laugh-link-cat {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  left: 512px;
+  width: 416px;
+  height: 423px;
+  top: 143px;
+}
+
 .laugh-link-jokes {
   background-color: black;
   opacity: 0;
@@ -256,10 +320,32 @@
   width: 200px;
   height: 100px; 
   left: 1200px;
+  z-index: 1;
 }
 
 .loggout {
   position: absolute;
+  padding: 3px 20px;
+  border: none;
+  border-radius: 20px;
   left: 1213px;
   top: 16px;
+  z-index: 10;
+}
+
+/* SHOW CAT */
+
+.cat_background {
+  height: 100vh;
+  width: 100vw;
+  background: url('images/Laugh_show.png') no-repeat;
+  
+}
+
+.cat_vid {
+  
+  position: absolute;
+  left: 320px;
+  top: 145px;
+
 }
